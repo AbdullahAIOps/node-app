@@ -1,5 +1,5 @@
 FROM node:15-alpine
-ARG PORT=8000
+ARG PORT=80
 ENV PORT=$PORT
 WORKDIR app
 copy src src
